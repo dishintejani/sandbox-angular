@@ -12,6 +12,9 @@ export class UserComponent implements OnInit {
 
   // methods
   constructor() {
+  }
+
+  ngOnInit() {
     this.user = {
       firstName : 'Joe',
       lastName : 'Roe',
@@ -22,9 +25,6 @@ export class UserComponent implements OnInit {
         state: 'Ontario'
       }
     };
-  }
-
-  ngOnInit() {
   }
 
 }
