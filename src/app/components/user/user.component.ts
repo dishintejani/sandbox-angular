@@ -23,7 +23,8 @@ export class UserComponent implements OnInit {
         street: '370 Hollyberry Trail',
         city: 'North York',
         state: 'Ontario'
-      }
+      },
+      
     };
   }
 
